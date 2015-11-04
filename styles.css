@@ -1,0 +1,55 @@
+#scoreboard{
+	width: 800px;
+	position: relative;
+}
+#scoreboard img{
+	width: 100%;
+}
+
+
+#home-score, #visitor-score, #current-down, #to-go{
+	position: absolute;
+	font-family: 'Diplomata';
+	color: gold;
+}
+
+#home-score{
+    top: 100px;
+    left: 52px;
+    font-size: 70px;
+}
+#visitor-score{
+    top: 100px;
+    left: 680px;
+    font-size: 70px;
+}
+
+#current-down{
+    top: 245px;
+    left: 70px;
+    font-size: 50px;
+}
+
+#to-go{
+    top: 245px;
+    left: 621px;
+    font-size: 50px;
+}
+
+#the-field{
+	background-image: url('img/theField.png');
+	background-size: 800px 377px;
+	background-repeat: none;
+}
+
+#strong-RB, #average-RB, #weak-RB, #strong-WR, #average-WR, #weak-WR{
+	float: left;
+}
+
+.energy{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
